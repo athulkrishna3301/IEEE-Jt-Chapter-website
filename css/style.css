@@ -3,7 +3,9 @@ body {
 }
 .hero {
     background-color: #0a1628;
-    background-image: linear-gradient(rgba(10, 22, 40, 0.85), rgba(10, 22, 40, 0.85)), url('/assets/hero-bg.jpg');
+    background-image:
+        linear-gradient(rgba(10, 22, 40, 0.85), rgba(10, 22, 40, 0.85)),
+        url("../assets/hero-bg.jpg");
     background-size: cover;
     background-position: center;
     color: #ffffff;

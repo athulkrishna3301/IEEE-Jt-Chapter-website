@@ -1,0 +1,346 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+.hero {
+    background-color: #0a1628;
+    background-image: linear-gradient(rgba(10, 22, 40, 0.85), rgba(10, 22, 40, 0.85)), url('/assets/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 80px 0;
+    text-align: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    color: #FFC300;
+}
+
+.hero h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.hero .btn{
+    background-color:#FFC300;
+    color: #0a1628;
+    border: none;
+    font-weight:600;
+
+}
+.hero a{
+    text-decoration: none;
+    color: inherit;
+}
+.sec{
+    background:#0f172a;  
+    color:white;
+    padding:80px 0;
+}
+.sec h2{
+    text-align:center;
+}
+.sec p{
+    color:#cbd5e1;
+    max-width:900px;
+    margin:0 auto 50px;
+}
+.sec h5{
+    text-align:center;
+}
+.sec .col-md-5:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(255, 195, 0, 0.3);
+}
+.footer {
+    background:
+    linear-gradient(
+rgba(5,10,20,.82),rgba(5,10,20,.90)
+    ),
+    url("../assets/hero-bg.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+
+    padding: 50px 0;
+
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer h5 {
+    font-family: "Orbitron", sans-serif;
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+
+.footer a {
+    color: #FFC300;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffd84d;
+}
+
+.footer p {
+    margin-top: 20px;
+    color: #b0b8c5;
+    font-size: 0.9rem;
+}
+h1, h2, h3, h4, h5 {
+    font-family: "Orbitron", sans-serif;
+}
+.sec .container {
+    padding: 0 40px;
+}
+.society-card{
+    background:#162032;
+    border:1px solid #FFC300;
+    border-radius:16px;
+    color:white;
+    text-align:center;
+    padding:35px;
+    transition:.35s;
+}
+.society-card:hover{
+    transform:translateY(-8px);
+
+    border-color:#ffd84d;
+
+    box-shadow:0 15px 40px rgba(255,195,0,.2);
+}
+.sec a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.page-header {
+    background-color: #0a1628;
+    color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+}
+.events-section {
+    background-color: #0d1f3c;
+    padding: 60px 0;
+}
+
+.events-section .card {
+    background-color: #0a1628;
+    border: 1px solid #FFC300;
+    border-radius: 12px;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.events-section .card-title {
+    color: #FFC300;
+    font-family: "Orbitron", sans-serif;
+}
+
+.events-section .card-text {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.events-section .card:hover {
+    background-color: #FFC300;
+    border-color: #FFC300;
+}
+
+.events-section .card:hover .card-title {
+    color: #0a1628;
+}
+
+.events-section .card:hover .card-text {
+    color: #0a1628;
+}
+.events-section .card:hover {
+    background-color: #FFC300;
+    border-color: #FFC300;
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(255, 195, 0, 0.3);
+}
+.events-section .card:hover .badge {
+    background-color: #0a1628 !important;
+    color: #FFC300;
+}
+@keyframes gridFlow {
+    0% { background-position: 0 0; }
+    100% { background-position: 40px 40px; }
+}
+.events-section {
+    background: transparent;
+    padding: 60px 0;
+}
+
+.page-header {
+    background: transparent;
+    color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.footer.no-bg {
+    background: transparent;
+    border-top: 1px solid rgba(255, 195, 0, 0.1);
+}
+.events-wrapper {
+    background-color: #0a1628;
+    background-image: 
+        linear-gradient(rgba(255, 195, 0, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 195, 0, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+    animation: gridFlow 3s linear infinite;
+}
+.execom-section h5 {
+    color: #FFC300;
+}
+
+.execom-section p {
+    color: #cbd5e1;
+    font-size: 0.9rem;
+}
+.execom-section {
+    background-color: #0a1628;
+    padding: 60px 0;
+    color: white;
+}
+
+.execom-card {
+    background-color: #0d1f3c;
+    border-radius: 12px;
+    overflow: hidden;
+    border-top: 4px solid #FFC300;
+    transition: transform 0.3s ease;
+}
+
+.execom-card img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.execom-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.execom-info h5 {
+    color: #FFC300;
+    margin-bottom: 5px;
+}
+
+.execom-info p {
+    color: #cbd5e1;
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+.execom-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(255, 195, 0, 0.2);
+}
+.execom-wrapper {
+    background-color: #0a1628;
+}
+.contact-section {
+    background-color: #0a1628;
+    padding: 60px 0;
+    color: #ffffff;
+}
+
+.contact-section label {
+    color: #FFC300;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.contact-section .form-control {
+    background-color: #0d1f3c;
+    border: 1px solid #FFC300;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.contact-section .form-control:focus {
+    background-color: #0d1f3c;
+    border-color: #ffd84d;
+    color: #ffffff;
+    box-shadow: 0 0 0 0.2rem rgba(255, 195, 0, 0.25);
+}
+
+.contact-section .form-control::placeholder {
+    color: #6b7a99;
+}
+
+.contact-section .btn {
+    background-color: #FFC300;
+    color: #0a1628;
+    border: none;
+    font-weight: 600;
+    width: 100%;
+    padding: 12px;
+}
+
+.contact-section .btn:hover {
+    background-color: #ffd84d;
+}
+
+.contact-section h2 {
+    color: #FFC300;
+    margin-bottom: 25px;
+}
+
+.contact-section h3 {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-section h4 {
+    color: #FFC300;
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+
+.contact-section p, .contact-section a {
+    color: #cbd5e1;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    color: #FFC300;
+}
+.contact-wrapper {
+    background-color: #0a1628;
+    background-image: 
+        linear-gradient(rgba(255, 195, 0, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 195, 0, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+    animation: gridFlow 3s linear infinite;
+}
+
+.contact-section {
+    background: transparent;
+    padding: 60px 0;
+    color: #ffffff;
+}
+.contact-section .col-md-6:last-child {
+    text-align: center;
+}
+.contact-section .row {
+    align-items: center;
+}

@@ -1,5 +1,6 @@
 body {
     font-family: "Poppins", sans-serif;
+    overflow-x:hidden;
 }
 .hero {
     background-color: #0a1628;
@@ -345,4 +346,12 @@ h1, h2, h3, h4, h5 {
 }
 .contact-section .row {
     align-items: center;
+}
+@media (max-width:768px){
+.hero h1{
+    font-size:1.6rem;
+}
+.hero h2{
+    font-size:1rem;
+}
 }

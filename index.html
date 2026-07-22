@@ -12,6 +12,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -53,10 +54,18 @@
                 </div>
         </nav>
     <div class="hero">
-    <div class="container">
-        <h1><b>Engineering the Future, Together</b></h1>
-        <h2>IEEE PHO/MTT-S/SSCS/SPS Joint Student Branch Chapter, College of Engineering Karunagappally</h2>
-        <button class="btn btn-primary"><a href="events.html">Explore Events</a></button>
+       <div class="container">
+        <h1 data-aos="zoom-in"><b>Engineering the Future, Together</b></h1>
+
+        <h2 data-aos="fade-up" data-aos-delay="200">
+            IEEE PHO/MTT-S/SSCS/SPS Joint Student Branch Chapter, College of Engineering Karunagappally
+        </h2>
+
+        <button class="btn btn-primary"
+                data-aos="fade-up"
+                data-aos-delay="400">
+            <a href="events.html">Explore Events</a>
+        </button>
     </div>
     </div>
     <section class="sec">
@@ -64,7 +73,9 @@
         <h2>About Our Chapter</h2>
         <p>IEEE PHO/MTT-S/SSCS/SPS Jt Chapter CEK consists of 4 IEEE Technical Societies IEEE Photonics Society,IEEE Solid State Circuit Society,IEEE Microwave Theory and Technological Society,IEEE Signal Processing Society.</p>
         <div class="row gy-4 gx-5 justify-content-center">
-        <div class="col-md-5">
+        <div class="col-md-5"
+           data-aos="fade-up"
+           data-aos-delay="100">
         <a href="https://ieeephotonics.org/" target="_blank">
         <div class="society-card">
             <h5>IEEE PHO</h5>
@@ -72,7 +83,9 @@
         </div>
         </a>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5"
+         data-aos="fade-up"
+         data-aos-delay="200">
         <a href="https://mtt.org/" target="_blank">
         <div class="society-card">
             <h5>IEEE MTTS</h5>
@@ -80,7 +93,9 @@
         </div>
         </a>
         </div>
-         <div class="col-md-5">
+        <div class="col-md-5"
+        data-aos="fade-up"
+        data-aos-delay="300">
         <a href="https://sscs.ieee.org/" target="_blank">
         <div class="society-card">
             <h5>IEEE SSCS</h5>
@@ -88,7 +103,9 @@
         </div>
         </a>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5"
+         data-aos="fade-up"
+         data-aos-delay="200">
         <a href="https://signalprocessingsociety.org/" target="_blank">
         <div class="society-card">
             <h5>IEEE SPS</h5>
@@ -109,5 +126,7 @@
     </footer>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/script.js"></script>
     </body>
 </html>

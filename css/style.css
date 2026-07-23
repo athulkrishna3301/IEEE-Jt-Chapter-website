@@ -18,7 +18,10 @@ html, body {
     align-items: center;
 }
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
     color: #FFC300;
 }
 
@@ -38,6 +41,54 @@ html, body {
 .hero a{
     text-decoration: none;
     color: inherit;
+}
+.hero-sub {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+}
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(255, 195, 0, 0.6); }
+    70% { box-shadow: 0 0 0 15px rgba(255, 195, 0, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 195, 0, 0); }
+}
+
+.hero .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(255, 195, 0, 0.5);
+    background-color: #ffd84d;
+}
+.hero .btn {
+    background-color: #FFC300;
+    color: #0a1628;
+    border: none;
+    font-weight: 600;
+    animation: pulse 2s infinite;
+    border-radius: 50px;
+    padding: 12px 30px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.ripple {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -50%) scale(0);
+    animation: rippleEffect 0.6s linear;
+    pointer-events: none;
+}
+
+@keyframes rippleEffect {
+    to {
+        transform: translate(-50%, -50%) scale(4);
+        opacity: 0;
+    }
 }
 .sec{
     background:#0f172a;  
@@ -215,11 +266,10 @@ h1, h2, h3, h4, h5 {
     font-size: 0.9rem;
 }
 .execom-section {
-    background-color: #0a1628;
+    background: transparent;
     padding: 60px 0;
     color: white;
 }
-
 .execom-card {
     background-color: #0d1f3c;
     border-radius: 12px;
@@ -257,6 +307,8 @@ h1, h2, h3, h4, h5 {
 }
 .execom-wrapper {
     background-color: #0a1628;
+    background-image: radial-gradient(rgba(255, 195, 0, 0.15) 1px, transparent 1px);
+    background-size: 24px 24px;
 }
 .contact-section {
     background-color: #0a1628;
@@ -362,4 +414,16 @@ h1, h2, h3, h4, h5 {
 .navbar-brand{
     font-size:0.75rem;
 }
+}
+.navbar-brand {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #FFC300 !important;
+}
+.hero-sub {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
 }

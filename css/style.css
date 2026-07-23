@@ -98,10 +98,12 @@ html, body {
 .sec h2{
     text-align:center;
 }
-.sec p{
-    color:#cbd5e1;
-    max-width:900px;
-    margin:0 auto 50px;
+.sec p {
+    color: #cbd5e1;
+    max-width: 750px;
+    margin: 0 auto 50px;
+    text-align: center;
+    line-height: 1.8;
 }
 .sec h5{
     text-align:center;
